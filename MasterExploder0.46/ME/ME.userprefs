@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\tankBarrelPlayer1Movement.cs">
+    <Files>
+      <File FileName="Assets\Scripts\playerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\playerControl2.cs" Line="19" Column="60" />
+      <File FileName="Assets\Scripts\playerControl1.cs" Line="34" Column="1" />
+      <File FileName="Assets\Scripts\tankBarrelPlayer1Movement.cs" Line="15" Column="2" />
+      <File FileName="Assets\Scripts\playerShooting.cs" Line="36" Column="20" />
+      <File FileName="Assets\Scripts\tankShellBehaviour.cs" Line="18" Column="145" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\joshw\Documents\2D movement tutorial\ME\Assets\Scripts\playerHealth.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
