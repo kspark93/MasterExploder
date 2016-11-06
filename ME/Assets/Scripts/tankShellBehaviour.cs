@@ -20,11 +20,9 @@ public class tankShellBehaviour : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
-		if (col.gameObject != owner) {
-
-			// put extra collision logic here
-
-			Destroy(this.gameObject);
+		if (col.gameObject.GetComponent<playerHealth> () != null) 
+		{
+    		col.gameObject.GetComponent<playerHealth> ().currentPlayerHealth -= 20;
 		}
 	}
 }

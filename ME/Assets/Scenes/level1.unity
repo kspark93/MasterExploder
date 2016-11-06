@@ -400,7 +400,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 502393191}
   - 212: {fileID: 502393192}
-  - 114: {fileID: 502393193}
   - 114: {fileID: 502393194}
   m_Layer: 8
   m_Name: tankBarrel1
@@ -456,17 +455,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!114 &502393193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 502393190}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 433a0d935c98dfe489a641b5dd2f9b6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &502393194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,7 +714,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 843479074}
   m_LocalRotation: {x: -0.012888864, y: 0, z: 0, w: 0.999917}
-  m_LocalPosition: {x: -0.007999897, y: -0.030002117, z: 0.0029193126}
+  m_LocalPosition: {x: -0.047, y: 0.082, z: -0.001}
   m_LocalScale: {x: 0.8473869, y: 1.2626356, z: 0}
   m_LocalEulerAnglesHint: {x: -1.4770001, y: 0, z: 0}
   m_Children:
@@ -854,7 +842,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fc8170ab3c9981b4699c8d09d74eaf1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9acd13e8f201acb46bb683c5a3639a41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
