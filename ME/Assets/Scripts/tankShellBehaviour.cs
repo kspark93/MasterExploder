@@ -15,7 +15,7 @@ public class tankShellBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// destroy the tank shell if it is outside the playing bounds (to left, right or down)
-		if (gameObject.transform.position.x < leftBound || gameObject.transform.position.x > rightBound || gameObject.transform.position.y > downBound)
+		if (gameObject.transform.position.x < leftBound || gameObject.transform.position.x > rightBound || gameObject.transform.position.y < downBound)
 			Destroy (this.gameObject);
 	}
 

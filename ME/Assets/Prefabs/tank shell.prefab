@@ -23,6 +23,8 @@ GameObject:
   - 50: {fileID: 50000013088821922}
   - 58: {fileID: 58000012299105092}
   - 114: {fileID: 114000010318174536}
+  - 114: {fileID: 114000013000390486}
+  - 114: {fileID: 114000013462251386}
   m_Layer: 0
   m_Name: tank shell
   m_TagString: deadly
@@ -87,8 +89,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftBound: -17
   rightBound: 17
-  downBound: 12.5
+  downBound: -12.5
   owner: {fileID: 0}
+--- !u!114 &114000013000390486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013699935886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8cbcdad3379b0d4d91661036e3a554f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionRadius: 15
+  lastPosition: {x: 0, y: 0}
+--- !u!114 &114000013462251386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013699935886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 100a277f6b88f604a9fa91487623bc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windMultiplier: 34
 --- !u!212 &212000012945885322
 SpriteRenderer:
   m_ObjectHideFlags: 1
