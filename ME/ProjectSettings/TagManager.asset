@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - tankBarrel1
-  - deadly
+  - Player1
+  - Player2
   layers:
   - Default
   - TransparentFX
@@ -15,10 +15,10 @@ TagManager:
   - UI
   - 
   - 
+  - tankBarrel2
+  - player2
   - tankBarrel1
-  - player
-  - 
-  - 
+  - player1
   - 
   - 
   - 

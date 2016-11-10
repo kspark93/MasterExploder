@@ -8,6 +8,9 @@ public class playerHealth : MonoBehaviour
 	public int maxPlayerHealth;
 	public Image healthBar;
 
+	//[SerializeField]
+	//private Text valueText;
+
 	void Start () 
 	{
 		// when you set the currentPlayerHealth to 0 in settings as the game has loaded the player will die
@@ -16,7 +19,10 @@ public class playerHealth : MonoBehaviour
 
 	void Update () 
 	{
+
 		healthBar.fillAmount = (float)currentPlayerHealth / maxPlayerHealth;
+		//string[]tmp = valueText.text.Split(':');
+		//valueText.text = tmp[0] + ":" + currentPlayerHealth;
 
 		if (currentPlayerHealth <= 0) 
 		{
