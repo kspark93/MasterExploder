@@ -10,12 +10,9 @@ public class playerShooting : MonoBehaviour {
 	public Object tankShellPrefab;
 	public GameObject tank;
 	public GameObject gunPivot;
-
-
 	// Use this for initialization
 	void Start () {
 		currentPower = minPower;
-
 	}
 	
 	// Update is called once per frame
