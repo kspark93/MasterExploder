@@ -20,9 +20,15 @@ public class tankShellBehaviour : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
-		if (col.gameObject.GetComponent<playerHealth> () != null) 
+		if (col.gameObject.GetComponent<playerControl1> () != null) 
 		{
-    		col.gameObject.GetComponent<playerHealth> ().currentPlayerHealth -= 20;
+    		col.gameObject.GetComponent<playerControl1>().health.CurrentVal -=20;
+		}
+		if (col.gameObject.GetComponent<playerControl2> () != null) 
+		{
+    		col.gameObject.GetComponent<playerControl2>().health.CurrentVal -=20;
 		}
 	}
 }
+
+

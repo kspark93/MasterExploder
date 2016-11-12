@@ -36,6 +36,7 @@ public class BarScript : MonoBehaviour {
 
 	private void HandleBar ()
 	{
+		// only updates when its different from the fillamount
 		if (fillAmount != content.fillAmount) 
 		{
 			//accessing the fillAmount in the content object.

@@ -51,15 +51,15 @@ public class playerControl1 : MonoBehaviour
 
 		//this is for testing if the player healthbar will go if  the health gets attacked ( by pressing  a key)
 		// If you press the z key player1 will lose 10 health
-		//if(Input.GetKeyDown(KeyCode.Z))
-		//{
-			//health.CurrentVal -= 10;
-		//}
+		if(Input.GetKeyDown(KeyCode.Z))
+		{
+			health.CurrentVal -= 10;
+		}
 		//If you press the X key player1 will gain 10 health
-		//if(Input.GetKeyDown(KeyCode.X))
-		//{
-			//health.CurrentVal += 10;
-		//}
+		if(Input.GetKeyDown(KeyCode.X))
+		{
+			health.CurrentVal += 10;
+		}
 
 
 		//If the players health is 0 then the player will die 
